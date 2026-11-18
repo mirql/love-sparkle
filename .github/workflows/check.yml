@@ -1,0 +1,22 @@
+# The repo's checks, minimal and GitHub-hosted (public repo): on main, and on a PR when a
+# maintainer adds the label `ci`. No secrets, read-only.
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [labeled, synchronize]
+permissions:
+  contents: read
+jobs:
+  check:
+    if: github.event_name == 'push' || contains(github.event.pull_request.labels.*.name, 'ci')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # the secret scan reads the whole history
+          persist-credentials: false
+      - uses: cachix/install-nix-action@3dc140bfc76c49fbd4dd958429132e3746bcb086 # v31.11.5
+      - run: nix develop --command just check

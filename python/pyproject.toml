@@ -1,6 +1,6 @@
 [project]
 name = "mirql-love-sparkle"
-version = "0.1.0"
+version = "0.7.0"
 description = "A tiny sparkle of love: the Python port of @mirql/love-sparkle"
 readme = "README.md"
 license = "MIT"
