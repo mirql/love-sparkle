@@ -86,4 +86,8 @@ jobs:
         with:
           persist-credentials: false
       - uses: cachix/install-nix-action@3dc140bfc76c49fbd4dd958429132e3746bcb086 # v31.11.5
-      - run: nix develop --command sh -c 'cd python && uv build -o dist && uv publish --trusted-publishing always dist/*'
+      - run: nix develop --command sh -c 'cd python && uv build -o dist'
+      # PyPI's own action: Trusted Publishing plus PEP 740 attestations (provenance)
+      - uses: pypa/gh-action-pypi-publish@7245906fb61fa33a13554f9d5fb856fe61758086 # v1.14.3
+        with:
+          packages-dir: python/dist

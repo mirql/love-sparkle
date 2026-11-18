@@ -4,6 +4,9 @@ One version for every package (npm, JSR, crates.io, PyPI, Go) since 0.7.0.
 
 ## Unreleased
 
+- PyPI releases carry provenance (PEP 740 attestations), like npm: the upload goes
+  through PyPI's official publish action.
+
 ## 0.7.0
 
 - One version for every package. Releases come from GitHub Actions with Trusted
