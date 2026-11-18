@@ -1,0 +1,9 @@
+# mirql conventions 2026-11-19 (templates/ISSUE_TEMPLATE/config.yml)
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question
+    url: https://github.com/mirql/love-sparkle/discussions/categories/q-a
+    about: How to set something up, whether it fits your case. Ideas go to Discussions > Ideas.
+  - name: Report a security vulnerability
+    url: https://github.com/mirql/love-sparkle/security/advisories/new
+    about: Please report privately.

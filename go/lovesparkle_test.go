@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	lovesparkle "github.com/askaramirov/mirql-love-sparkle/go"
+	lovesparkle "github.com/mirql/love-sparkle/go"
 )
 
 // The bytes of the npm package's sparkleOfLove(), so the ports cannot drift.

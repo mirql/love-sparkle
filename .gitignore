@@ -1,1 +1,16 @@
 npm/*
+__pycache__/
+
+# never commit credentials
+*.key
+*.pem
+*-key.json
+*credentials*.json
+.env
+.env.*
+!.env.example
+
+# nix, direnv
+result
+result-*
+.direnv/
