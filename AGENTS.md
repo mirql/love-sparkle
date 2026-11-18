@@ -42,7 +42,8 @@ To check this repo against the mirql conventions, use the `mirql-conventions` sk
 - Test: `just check` (all four ports, then the secret scan). Every port's test compares
   the text with the same bytes; a change to the text changes all of them.
 - No dependencies in any port, ever: every mirql repo installs this package.
-- External here: publishing to npm, JSR, crates.io or PyPI, and pushing a `go/v*` tag.
+- External here: publishing (the tags `v*` and `go/v*`, `just release`, approving a
+  release run), and publishing to npm, JSR, crates.io or PyPI by hand.
   Prepare it, show the version and what goes out, and wait for a yes.
 
 ## Copied in

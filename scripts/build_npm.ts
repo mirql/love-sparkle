@@ -6,6 +6,7 @@ await emptyDir("./npm");
 await build({
   entryPoints: ["./mod.ts"],
   outDir: "./npm",
+  test: false, // the tests run in `just check`
   shims: {
     // see JS docs for overview and more options
     deno: true,
@@ -14,7 +15,7 @@ await build({
     // package.json properties
     name: "@mirql/love-sparkle",
     version: Deno.args[0],
-    description: "love-sparkle",
+    description: "A tiny sparkle of love: the same text in TypeScript, Rust, Python and Go.",
     license: "MIT",
     repository: {
       type: "git",

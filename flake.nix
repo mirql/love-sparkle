@@ -13,7 +13,8 @@
         packages = [
           pkgs.just
           pkgs.gitleaks
-          pkgs.deno # TypeScript port, npm build (scripts/build_npm.ts)
+          pkgs.deno # TypeScript port, JSR, npm build (scripts/build_npm.ts)
+          pkgs.nodejs # npm build tests and publish
           pkgs.cargo # Rust port
           pkgs.rustc
           pkgs.python3 # Python port
