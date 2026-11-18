@@ -1,6 +1,13 @@
-# @mirql/love-sparkle
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/love-sparkle-dark.svg">
+    <img alt="love-sparkle." src="assets/logo/love-sparkle-light.svg" width="420">
+  </picture>
+</p>
 
-<3
+<p align="center"><b>A tiny sparkle of love: the same text in TypeScript, Rust, Python and Go.</b></p>
+
+<p align="center">&lt;3</p>
 
 A tiny sparkle of love: `✨❤️ Sparkle of Love ❤️✨`, the same text byte for byte in every
 language, with zero dependencies.
