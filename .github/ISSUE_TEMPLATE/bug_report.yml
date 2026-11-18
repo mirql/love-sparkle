@@ -1,0 +1,40 @@
+# mirql conventions 2026-11-19 (templates/ISSUE_TEMPLATE/bug_report.yml)
+name: Bug report
+description: Something does not work as the docs say
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security problems**: please do not open an issue. Use Security → Report a vulnerability (see SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Config
+      description: The relevant part of your config. Remove anything private.
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: Error messages and logs around the problem.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Version
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: System
+      description: OS and version, and anything else the project depends on.
+    validations:
+      required: true

@@ -1,0 +1,22 @@
+# mirql conventions 2026-11-19 (templates/ISSUE_TEMPLATE/feature_request.yml)
+name: Feature request
+description: A new setting, command or integration
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do
+      description: The task or workflow, and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you would like
+      description: How it could look (a config key, a command, ...).
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How we would see that it works.
