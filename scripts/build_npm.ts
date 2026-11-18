@@ -18,7 +18,7 @@ await build({
     license: "MIT",
     repository: {
       type: "git",
-      url: "git+https://github.com/mirql/mirql-love-sparkle.git",
+      url: "git+https://github.com/mirql/love-sparkle.git",
     },
     bugs: {
       url: "https://github.com/mirql/love-sparkle/issues",

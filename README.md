@@ -13,7 +13,7 @@ language, with zero dependencies.
 | Deno (JSR) | `deno add jsr:@mirql/love-sparkle` | `import { sparkleOfLove } from "@mirql/love-sparkle"` |
 | Rust | `cargo add mirql-love-sparkle` | `mirql_love_sparkle::sparkle_of_love()` |
 | Python | `uv add mirql-love-sparkle` | `from mirql_love_sparkle import sparkle_of_love` |
-| Go | `go get github.com/askaramirov/mirql-love-sparkle/go` | `lovesparkle.Sparkle()` |
+| Go | `go get github.com/mirql/love-sparkle/go` | `lovesparkle.Sparkle()` |
 
 The ports: [`rust/`](rust/), [`python/`](python/), [`go/`](go/).
 

@@ -6,11 +6,11 @@ a tiny sparkle of love, with zero dependencies.
 ## Usage
 
 ```sh
-go get github.com/askaramirov/mirql-love-sparkle/go
+go get github.com/mirql/love-sparkle/go
 ```
 
 ```go
-import lovesparkle "github.com/askaramirov/mirql-love-sparkle/go"
+import lovesparkle "github.com/mirql/love-sparkle/go"
 
 func main() {
 	fmt.Println(lovesparkle.Sparkle())
