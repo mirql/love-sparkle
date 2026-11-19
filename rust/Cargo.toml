@@ -1,6 +1,6 @@
 [package]
 name = "mirql-love-sparkle"
-version = "0.7.0"
+version = "0.7.1"
 edition = "2021"
 description = "A tiny sparkle of love: the Rust port of @mirql/love-sparkle"
 license = "MIT"
