@@ -12,7 +12,7 @@ contributors. No code, no git needed.
    in your browser. GitHub makes a copy (fork) of the repo for you.
 2. Name the file after your GitHub name: `sparkles/octocat.txt`.
 3. Write one line of kindness, for anyone who reads it.
-4. **Propose changes**, then **Create pull request**. In the description, `Part of #SPARKLE.`
+4. **Propose changes**, then **Create pull request**. In the description, `Part of #14.`
    and a hello are enough; you can delete the rest of the template.
 
 The rules, which `just check` checks:

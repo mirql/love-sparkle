@@ -64,7 +64,7 @@ minute, needs no git, and makes you one of our contributors.
 
 The rules (kind, humble, curious; no links, no @mentions, at most 280 characters) are in
 [CONTRIBUTING.md](https://github.com/mirql/love-sparkle/blob/main/CONTRIBUTING.md#your-first-pr-share-a-sparkle).
-The wall, oldest first:
+Everyone is welcome: [#14](https://github.com/mirql/love-sparkle/issues/14). The wall, oldest first:
 
 <!-- SPARKLE-WALL:START - written by `just sparkles`, do not edit -->
 - ✨ Be kind, stay humble, keep curious, and leave every place a little brighter than you found it. ❤️ · [askaramirov](https://github.com/askaramirov)
