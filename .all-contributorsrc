@@ -24,8 +24,10 @@
         "design",
         "test",
         "infra",
-        "maintenance"
+        "maintenance",
+        "ideas"
       ]
     }
-  ]
+  ],
+  "commitType": "docs"
 }
