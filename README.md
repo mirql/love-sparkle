@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/love-sparkle-dark.svg">
-    <img alt="love-sparkle." src="assets/logo/love-sparkle-light.svg" width="420">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mirql/love-sparkle/main/assets/logo/love-sparkle-dark.svg">
+    <img alt="love-sparkle." src="https://raw.githubusercontent.com/mirql/love-sparkle/main/assets/logo/love-sparkle-light.svg" width="420">
   </picture>
 </p>
 
@@ -14,7 +14,7 @@
   <a href="https://pypi.org/project/mirql-love-sparkle/"><img alt="PyPI" src="https://img.shields.io/pypi/v/mirql-love-sparkle"></a>
   <a href="https://pkg.go.dev/github.com/mirql/love-sparkle/go"><img alt="Go Reference" src="https://pkg.go.dev/badge/github.com/mirql/love-sparkle/go.svg"></a>
   <br>
-  <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
+  <a href="https://github.com/mirql/love-sparkle/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue"></a>
   <a href="https://github.com/mirql/love-sparkle/actions/workflows/check.yml"><img alt="check" src="https://github.com/mirql/love-sparkle/actions/workflows/check.yml/badge.svg"></a>
   <a href="#install"><img alt="Dependencies: 0" src="https://img.shields.io/badge/dependencies-0-brightgreen"></a>
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -41,7 +41,7 @@ language, with zero dependencies.
 | Python | `uv add mirql-love-sparkle` | `from mirql_love_sparkle import sparkle_of_love` |
 | Go | `go get github.com/mirql/love-sparkle/go` | `lovesparkle.Sparkle()` |
 
-The ports: [`rust/`](rust/), [`python/`](python/), [`go/`](go/).
+The ports: [`rust/`](https://github.com/mirql/love-sparkle/tree/main/rust), [`python/`](https://github.com/mirql/love-sparkle/tree/main/python), [`go/`](https://github.com/mirql/love-sparkle/tree/main/go).
 
 ## Development
 
@@ -50,8 +50,8 @@ nix develop
 just check       # the tests of every port, and a secret scan
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Found a security problem? Please report it
-privately: [SECURITY.md](SECURITY.md).
+See [CONTRIBUTING.md](https://github.com/mirql/love-sparkle/blob/main/CONTRIBUTING.md). Found a security problem? Please report it
+privately: [SECURITY.md](https://github.com/mirql/love-sparkle/blob/main/SECURITY.md).
 
 ## Contributors
 
@@ -79,4 +79,4 @@ Helped in a way that isn't a commit? Comment on any issue or PR:
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/mirql/love-sparkle/blob/main/LICENSE)
