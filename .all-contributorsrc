@@ -1,0 +1,31 @@
+{
+  "projectName": "love-sparkle",
+  "projectOwner": "mirql",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 80,
+  "commit": false,
+  "commitConvention": "none",
+  "contributorsPerLine": 7,
+  "linkToUsage": false,
+  "badgeTemplate": "<a href=\"#contributors\"><img alt=\"All contributors\" src=\"https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange\"></a>",
+  "contributors": [
+    {
+      "login": "askaramirov",
+      "name": "Askar Amirov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59274133",
+      "profile": "https://github.com/askaramirov",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "test",
+        "infra",
+        "maintenance"
+      ]
+    }
+  ]
+}
