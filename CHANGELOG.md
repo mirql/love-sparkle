@@ -10,6 +10,7 @@ One version for every package (npm, JSR, crates.io, PyPI, Go) since 0.7.0.
   and the social preview), drawn by `assets/logo/wordmark.py`; the README starts with it.
 - README: badges (the five registries, license, CI, dependencies, contributors), a status
   note, and a Contributors section (all-contributors).
+- README: full GitHub URLs for the logo and the file links, so they work on jsr.io and npm too.
 
 ## 0.7.0
 
