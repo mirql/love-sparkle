@@ -3,6 +3,31 @@
 Thanks for helping. The first question for any change: is the text still the same, byte for
 byte, in every language? love-sparkle stays tiny: no dependencies, no install scripts.
 
+## Your first PR: share a sparkle
+
+The easiest way in: add your own sparkle of love to the wall, and you are one of our
+contributors. No code, no git needed.
+
+1. [Open a new sparkle](https://github.com/mirql/love-sparkle/new/main/sparkles?filename=YOUR-GITHUB-NAME.txt)
+   in your browser. GitHub makes a copy (fork) of the repo for you.
+2. Name the file after your GitHub name: `sparkles/octocat.txt`.
+3. Write one line of kindness, for anyone who reads it.
+4. **Propose changes**, then **Create pull request**. In the description, `Part of #SPARKLE.`
+   and a hello are enough; you can delete the rest of the template.
+
+The rules, which `just check` checks:
+
+- One line, at most 280 characters. Emoji and `<3` are welcome.
+- No links and no @mentions.
+- One sparkle per person, in the file with your name.
+
+And the spirit, which a person checks: **kind, humble, curious**, the way we try to be
+in all of mirql. Write something you would be glad to get. No ads, no politics, nothing
+about anyone else, nothing private.
+
+We read every sparkle and merge it when it fits. Then we add you to the contributors (✨)
+and put your sparkle on the wall in the README.
+
 ## Before you start
 
 - **Bugs:** open an issue with the bug template.
@@ -36,6 +61,14 @@ One version for every package.
 3. Approve the waiting run of the `release` workflow (environment `release`). It
    publishes to npm, JSR, crates.io and PyPI with Trusted Publishing; a failed
    registry's job can be re-run alone.
+
+## Merging a sparkle (maintainers)
+
+1. Read it as a stranger would: kind, no hidden ads, nothing about someone else.
+2. Squash-merge, and thank them on the PR.
+3. On the PR: `@all-contributors please add @<name> for sparkle`.
+4. In a follow-up PR (several sparkles can share one): `just sparkles` puts them on the
+   README wall.
 
 ## Pull requests
 

@@ -5,8 +5,17 @@ default:
     @just --list
 
 # The gate CI runs: offline, no secrets. Every port's tests, then the secret scan
-check: test-ts test-rust test-python test-go secret-scan
+check: test-ts test-rust test-python test-go test-sparkles secret-scan
     @echo "check: ok"
+
+# The sparkle wall: the rules' tests, then every sparkle in sparkles/
+test-sparkles:
+    cd scripts && PYTHONDONTWRITEBYTECODE=1 python3 -m unittest sparkles_test
+    PYTHONDONTWRITEBYTECODE=1 python3 scripts/sparkles.py check
+
+# Write the sparkle wall into README.md (after merging new sparkles)
+sparkles:
+    PYTHONDONTWRITEBYTECODE=1 python3 scripts/sparkles.py wall
 
 # TypeScript (npm, JSR)
 test-ts:

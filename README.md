@@ -53,6 +53,23 @@ just check       # the tests of every port, and a secret scan
 See [CONTRIBUTING.md](https://github.com/mirql/love-sparkle/blob/main/CONTRIBUTING.md). Found a security problem? Please report it
 privately: [SECURITY.md](https://github.com/mirql/love-sparkle/blob/main/SECURITY.md).
 
+## Share your sparkle ✨
+
+Add your own sparkle of love: one line of kindness in a file named after you. It takes a
+minute, needs no git, and makes you one of our contributors.
+
+1. [Open a new sparkle](https://github.com/mirql/love-sparkle/new/main/sparkles?filename=YOUR-GITHUB-NAME.txt),
+   put your GitHub name in the file name, and write your line.
+2. Click **Propose changes**, then **Create pull request**.
+
+The rules (kind, humble, curious; no links, no @mentions, at most 280 characters) are in
+[CONTRIBUTING.md](https://github.com/mirql/love-sparkle/blob/main/CONTRIBUTING.md#your-first-pr-share-a-sparkle).
+The wall, oldest first:
+
+<!-- SPARKLE-WALL:START - written by `just sparkles`, do not edit -->
+- ✨ Be kind, stay humble, keep curious, and leave every place a little brighter than you found it. ❤️ · [askaramirov](https://github.com/askaramirov)
+<!-- SPARKLE-WALL:END -->
+
 ## Contributors
 
 Thanks to everyone who made love-sparkle what it is
@@ -64,7 +81,7 @@ Thanks to everyone who made love-sparkle what it is
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/askaramirov"><img src="https://avatars.githubusercontent.com/u/59274133?size=80" width="80px" height="80px" alt="Askar Amirov"/><br /><sub><b>Askar Amirov</b></sub></a><br /><a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Code">💻</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Documentation">📖</a> <a href="#design-askaramirov" title="Design">🎨</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Tests">⚠️</a> <a href="#infra-askaramirov" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-askaramirov" title="Maintenance">🚧</a> <a href="#ideas-askaramirov" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/askaramirov"><img src="https://avatars.githubusercontent.com/u/59274133?size=80" width="80px" height="80px" alt="Askar Amirov"/><br /><sub><b>Askar Amirov</b></sub></a><br /><a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Code">💻</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Documentation">📖</a> <a href="#design-askaramirov" title="Design">🎨</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Tests">⚠️</a> <a href="#infra-askaramirov" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-askaramirov" title="Maintenance">🚧</a> <a href="#ideas-askaramirov" title="Ideas, Planning, & Feedback">🤔</a> <a href="#sparkle-askaramirov" title="Shared a sparkle of love">✨</a></td>
     </tr>
   </tbody>
 </table>
