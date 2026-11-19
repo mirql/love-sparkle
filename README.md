@@ -64,7 +64,7 @@ Thanks to everyone who made love-sparkle what it is
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/askaramirov"><img src="https://avatars.githubusercontent.com/u/59274133?size=80" width="80px" height="80px" alt="Askar Amirov"/><br /><sub><b>Askar Amirov</b></sub></a><br /><a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Code">💻</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Documentation">📖</a> <a href="#design-askaramirov" title="Design">🎨</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Tests">⚠️</a> <a href="#infra-askaramirov" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-askaramirov" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/askaramirov"><img src="https://avatars.githubusercontent.com/u/59274133?size=80" width="80px" height="80px" alt="Askar Amirov"/><br /><sub><b>Askar Amirov</b></sub></a><br /><a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Code">💻</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Documentation">📖</a> <a href="#design-askaramirov" title="Design">🎨</a> <a href="https://github.com/mirql/love-sparkle/commits?author=askaramirov" title="Tests">⚠️</a> <a href="#infra-askaramirov" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-askaramirov" title="Maintenance">🚧</a> <a href="#ideas-askaramirov" title="Ideas, Planning, & Feedback">🤔</a></td>
     </tr>
   </tbody>
 </table>
