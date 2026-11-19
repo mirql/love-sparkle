@@ -11,6 +11,10 @@ One version for every package (npm, JSR, crates.io, PyPI, Go) since 0.7.0.
 - README: badges (the five registries, license, CI, dependencies, contributors), a status
   note, and a Contributors section (all-contributors).
 - README: full GitHub URLs for the logo and the file links, so they work on jsr.io and npm too.
+- The sparkle wall: anyone can add their own sparkle of love in `sparkles/<name>.txt`
+  (one line, kind, no links), straight from the browser; the README shows them all, and
+  everyone who shares one is a contributor (✨). `just check` checks the rules; `just
+  sparkles` writes the wall. Nothing in the packages changes.
 
 ## 0.7.0
 

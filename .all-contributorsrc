@@ -25,9 +25,16 @@
         "test",
         "infra",
         "maintenance",
-        "ideas"
+        "ideas",
+        "sparkle"
       ]
     }
   ],
-  "commitType": "docs"
+  "commitType": "docs",
+  "types": {
+    "sparkle": {
+      "symbol": "✨",
+      "description": "Shared a sparkle of love"
+    }
+  }
 }
