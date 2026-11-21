@@ -4,6 +4,7 @@ One version for every package (npm, JSR, crates.io, PyPI, Go) since 0.7.0.
 
 ## Unreleased
 
+- `just release` also makes the GitHub release, with the version's CHANGELOG section as notes.
 - CONTRIBUTING: releasing ends with moving our own projects to the new version.
 
 ## 0.7.1

@@ -13,6 +13,7 @@
         packages = [
           pkgs.just
           pkgs.gitleaks
+          pkgs.gh # just release: the GitHub release
           pkgs.deno # TypeScript port, JSR, npm build (scripts/build_npm.ts)
           pkgs.nodejs # npm build tests and publish
           pkgs.cargo # Rust port

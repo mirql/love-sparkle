@@ -57,7 +57,8 @@ One version for every package.
 1. A PR: `just set-version X.Y.Z`, and the "Unreleased" entries under `## X.Y.Z` in
    `CHANGELOG.md`.
 2. After the merge, on an up-to-date `main`: `just release X.Y.Z`. It pushes the tags
-   `vX.Y.Z` and `go/vX.Y.Z`; the Go tag is the Go release.
+   `vX.Y.Z` and `go/vX.Y.Z` (the Go tag is the Go release) and makes the GitHub release,
+   with the version's CHANGELOG section as its notes.
 3. Approve the waiting run of the `release` workflow (environment `release`). It
    publishes to npm, JSR, crates.io and PyPI with Trusted Publishing; a failed
    registry's job can be re-run alone.

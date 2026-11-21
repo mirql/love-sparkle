@@ -77,4 +77,7 @@ release version: (check-version version)
     git tag -a "v$v" -m "love-sparkle $v"
     git tag -a "go/v$v" -m "love-sparkle $v (Go)"
     git push origin "v$v" "go/v$v"
+    notes=$(awk -v h="## $v" '$0 == h {on=1; next} /^## / {on=0} on' CHANGELOG.md)
+    gh release create "v$v" --verify-tag --title "love-sparkle $v" --notes "$notes" \
+        || echo "no GitHub release made: gh release create v$v --notes-file <the ## $v section>" >&2
     echo "now approve the run: https://github.com/mirql/love-sparkle/actions/workflows/release.yml"
