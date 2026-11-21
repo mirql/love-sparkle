@@ -61,6 +61,8 @@ One version for every package.
 3. Approve the waiting run of the `release` workflow (environment `release`). It
    publishes to npm, JSR, crates.io and PyPI with Trusted Publishing; a failed
    registry's job can be re-run alone.
+4. Move our own projects that depend on it to the new version: one small PR each,
+   lockfile included.
 
 ## Merging a sparkle (maintainers)
 
